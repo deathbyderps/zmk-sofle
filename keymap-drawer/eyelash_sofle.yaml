@@ -91,7 +91,7 @@ layers:
   - KP ASTERISK
   - KP DIVIDE
   - \
-  - {t: Sft+2, s: Sft+@}
+  - '@'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -103,7 +103,7 @@ layers:
   - {t: ']', s: '}'}
   - +
   - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: Sft+=, s: Sft++}
   - '#'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
