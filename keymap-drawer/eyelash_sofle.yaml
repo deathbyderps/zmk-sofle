@@ -90,8 +90,8 @@ layers:
   - )
   - KP ASTERISK
   - KP DIVIDE
-  - {t: \, s: '|'}
-  - KP EQUAL
+  - \
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
