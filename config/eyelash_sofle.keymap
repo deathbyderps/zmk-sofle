@@ -57,10 +57,10 @@
 
         layer_1 {
             bindings = <
-&kp TILDE2        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans                &trans                 &trans           &trans         &trans         &trans
-&trans            &trans        &trans        &trans        &trans        &bt BT_CLR      &mmv MOVE_DOWN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_ASTERISK  &kp KP_DIVIDE  &kp BACKSLASH  &kp KP_EQUAL
-&trans            &trans        &trans        &trans        &trans        &out OUT_TOG    &mmv MOVE_LEFT   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS         &kp MINUS      &kp AT_SIGN    &kp NON_US_HASH
-&trans            &sys_reset    &trans        &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION  &kp UNDER      &sys_reset     &trans
+&kp TILDE2        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans                &trans                 &trans           &trans         &trans                &trans
+&trans            &trans        &trans        &trans        &trans        &bt BT_CLR      &mmv MOVE_DOWN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_ASTERISK  &kp KP_DIVIDE  &kp NON_US_BACKSLASH  &kp EQUAL
+&trans            &trans        &trans        &trans        &trans        &out OUT_TOG    &mmv MOVE_LEFT   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS         &kp MINUS      &kp AT                &kp NON_US_HASH
+&trans            &sys_reset    &trans        &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION  &kp UNDER      &sys_reset            &trans
 &kp C_PLAY_PAUSE  &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans                &trans                 &trans           &trans         &trans
             >;
 
