@@ -90,7 +90,7 @@ layers:
   - )
   - KP ASTERISK
   - KP DIVIDE
-  - \
+  - {t: \, s: '|'}
   - '@'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -116,7 +116,7 @@ layers:
   - '}'
   - '!'
   - _
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - PLAY PAUSE
   - {t: '$$mdi:transfer$$', type: trans}
